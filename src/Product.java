@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
 import java.lang.*;
 
 public class Product extends Menu{

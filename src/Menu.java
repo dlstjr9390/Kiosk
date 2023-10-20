@@ -19,4 +19,16 @@ public class Menu {
         setMenu("Drinks        ", "매장에서 직접 만드는 음료");
         setMenu("Beer          ", "뉴욕 브루클린 브루어리에서 양조한 맥주");
     }
+
+    static void burgerView(){
+        for (int i =0; i<Product.burgerList.size(); i++){
+            System.out.println((i+1) + ". " + Product.burgerList.get(i));
+        }
+    }
+
+    static void frozenView(){
+        for (int i =0; i<Product.frozenList.size(); i++){
+            System.out.println((i+1) + ". " + Product.frozenList.get(i));
+        }
+    }
 }

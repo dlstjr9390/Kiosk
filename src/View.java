@@ -27,17 +27,6 @@ public class View extends Menu{
         }
     }
 
-    static void burgerView(){
-        for (int i =0; i<Product.burgerList.size(); i++){
-            System.out.println((i+1) + ". " + Product.burgerList.get(i));
-        }
-    }
-
-    static void frozenView(){
-        for (int i =0; i<Product.frozenList.size(); i++){
-            System.out.println((i+1) + ". " + Product.frozenList.get(i));
-        }
-    }
     public static void menuView(){
         for(int i=0; i<foodMenu.size(); i++){
             System.out.println((i+1) + ". " + foodMenu.get(i) + " // " + descMenu.get(i));
