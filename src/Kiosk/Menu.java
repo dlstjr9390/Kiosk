@@ -12,6 +12,11 @@ public class Menu {
     static List<Double> Koreanbill = new ArrayList<>();
     static List<String> westernList = new ArrayList<String>();
     static List<Double> westernbill = new ArrayList<>();
+    static List<String> chinaList = new ArrayList<String>();
+    static List<Double> chinabill = new ArrayList<>();
+    static List<String> japanList = new ArrayList<String>();
+    static List<Double> japanbill = new ArrayList<>();
+
     public void setMenu(String Food, String Description) {
         Product product = new Product();
         this.food = Food;
@@ -28,6 +33,15 @@ public class Menu {
     void setWesternMenu(String Food, String Description, Double Price, String type){
         Menu.westernList.add(Food + " | " + "W " + String.valueOf(Price) + " | " + Description);
         Menu.westernbill.add(Price);
+    }
+    void setChinaMenu(String Food, String Description, Double Price, String type){
+        Menu.chinaList.add(Food + " | " + "W " + String.valueOf(Price) + " | " + Description);
+        Menu.chinabill.add(Price);
+    }
+
+    void setJapanMenu(String Food, String Description, Double Price, String type){
+        Menu.japanList.add(Food + " | " + "W " + String.valueOf(Price) + " | " + Description);
+        Menu.japanbill.add(Price);
     }
 
     public void setMenu() {

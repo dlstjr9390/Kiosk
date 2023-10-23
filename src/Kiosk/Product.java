@@ -1,7 +1,5 @@
 package Kiosk;
 
-import java.lang.*;
-
 public class Product extends Menu {
     double Price;
 
@@ -57,10 +55,72 @@ public class Product extends Menu {
                         7.0,
                         this.Type = Type
                 );
-
-
                 break;
 
+            case "중식     " :
+                setChinaMenu("짜장면   ",
+                        "돼지고기와 춘장을 볶아낸 면요리",
+                        6.0,
+                        this.Type = Type
+
+                );
+
+                setChinaMenu("짬뽕   ",
+                        "각종 해물과 채소가 들어간 매콤한 면요리",
+                        7.0,
+                        this.Type = Type
+
+                );
+
+                setChinaMenu("볶음밥   ",
+                        "다양한 채소와 고기, 계란을 밥과 함께 볶은 요리",
+                        7.0,
+                        this.Type = Type
+
+                );
+
+                setChinaMenu("탕수육   ",
+                        "돼지고기를 찹쌀가루에 뭍혀 튀겨 새콤달콤한 소스와 곁들여 먹는 요리",
+                        15.0,
+                        this.Type = Type
+
+                );
+
+                setChinaMenu("고추잡채   ",
+                        "고추,부추,피망 등의 채소들을 양념과 볶아 쫄깃한 빵과 함께 곁들여 먹는 요리",
+                        30.0,
+                        this.Type = Type
+
+                );
+                break;
+
+            case "일식     " :
+                setJapanMenu("모듬초밥   ",
+                        "신선하고 다양한 재료들을 밥위에 얹어 낸 요리",
+                        13.0,
+                        this.Type = Type
+
+                );
+
+                setJapanMenu("텐동   ",
+                        "여러가지 튀김을 올려먹는 덮밥 ",
+                        12.0,
+                        this.Type = Type
+
+                );
+                setJapanMenu("유부우동   ",
+                        "커다란 유부가 들어간 일식 우동",
+                        8.0,
+                        this.Type = Type
+
+                );
+                setJapanMenu("일식돈가스   ",
+                        "두껍게 튀겨낸 돼지고기를 소스와 함께 곁들여 먹는 요리",
+                        8.0,
+                        this.Type = Type
+
+                );
+                break;
         }
     }
 
